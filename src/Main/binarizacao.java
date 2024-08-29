@@ -10,7 +10,7 @@ public class binarizacao {
         try {
             // Carrega a imagem
             File arquivoImagem = new File("C:\\Users\\princ\\OneDrive\\Documentos\\4º Período - Ccompt\\P. de " +
-                    "imagens e V. computacional\\Exercicio de Revisao e Alinhamento de Conteudo\\src\\cores-rgb.jpg");
+                    "imagens e V. computacional\\Exercicio de Revisao e Alinhamento de Conteudo\\src\\images\\imagem4.jpg");
             BufferedImage imagem = ImageIO.read(arquivoImagem);
 
             int limiar = 128;
@@ -38,7 +38,7 @@ public class binarizacao {
             }
 
             // Salva a nova imagem
-            File output = new File("imagem_modificada.jpg");
+            File output = new File("imagem4inverso_modificada.jpg");
             ImageIO.write(imagem, "jpg", output);
 
         } catch (Exception e) {
