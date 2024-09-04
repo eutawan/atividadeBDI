@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
-public class binarizacao {
+public class Binarizar {
     public static void main(String[] args) {
         try {
             // Carrega a imagem
